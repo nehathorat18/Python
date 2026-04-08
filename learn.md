@@ -6,30 +6,29 @@ Cloud Engineering is where you handle your application and infrastructure throug
 ---
 
 ## **Why are you starting learning DevOps & Cloud?**
-I have an interest in learning DevOps and also want to switch my job by learning and upskilling.
+I am interested in learning DevOps and aim to upskill in order to transition to a new job.
 
 ---
 
 ## **Where do you want to reach?**
-To reach the position of a DevOps engineer and become a person who helps others learn DevOps and cloud.
+My goal is to become a DevOps engineer and help others learn DevOps and cloud technologies.
 
 ---
 
 ## **How will you stay consistent every single day?**
-Proper planning, mindset, hands-on practice, and handwritten notes.
+I will stay consistent through proper planning, hands-on practice, and handwritten notes.
 
 ---
 
-## **Mention your current level**
-( student / fresher / working professional / non-IT background, etc. )  
-I’m a working professional.
+## **Current Level**
+I’m a working professional with over 3 years of experience.
 
 ---
 
 ## **Define 3 clear goals for the next 90 days**
-- Have proper hands-on knowledge of all topics required for a DevOps engineer.  
+- Get hands-on knowledge of all important topics for a DevOps engineer.  
 - Deploy a production-grade application on Kubernetes (AWS + CI/CD).  
-- Build and document 3 end-to-end DevOps projects on GitHub.
+- Build and share three complete DevOps projects on GitHub.
 
 ---
 
@@ -40,3 +39,6 @@ Linux, Kubernetes, Terraform
 
 ## **Allocate a weekly time budget**
 3–4 hours per day on weekdays, 4–5 hours on weekends
+
+
+## **Happy Leaning!**
