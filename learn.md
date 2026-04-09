@@ -1,46 +1,55 @@
-## **What is your understanding of DevOps and Cloud Engineering?**
-DevOps is a culture or mindset that collaborates with development and operations teams by reducing time to market, automating repetitive tasks, and scaling to end users.  
+> **Key Points:**
+> - Everything in Linux is either a file or a directory.
+> - Everything in Linux is a process.
 
-Cloud Engineering is where you handle your application and infrastructure through cloud platforms.
+# Core Components of Linux (Kernel, User Space, Init/systemd)
 
----
+## Kernel
+Kernel is the heart of Linux, meaning the core component which only interacts with hardware.
 
-## **Why are you starting learning DevOps & Cloud?**
-I am interested in learning DevOps and aim to upskill in order to transition to a new job.
+## User Space
+User space is a protected memory area where all non-kernel user programs, applications, and most system libraries execute with limited privileges.
 
----
-
-## **Where do you want to reach?**
-My goal is to become a DevOps engineer and help others learn DevOps and cloud technologies.
-
----
-
-## **How will you stay consistent every single day?**
-I will stay consistent through proper planning, hands-on practice, and handwritten notes.
+## Init / systemd
+When we start any Linux machine, the first process that runs is called init, and it runs as PID 1.  
+A system daemon is any process that runs in the background.  
+We can check the status of processes using systemd.
 
 ---
 
-## **Current Level**
-I’m a working professional with over 3 years of experience.
+# How Processes Are Created and Managed
+
+When we start a system by pressing the power-on button, the BIOS on the motherboard is triggered and initializes the hardware.  
+
+The Linux kernel is then loaded, and GNU GRUB starts the computer and loads Linux, after which the Ubuntu loading screen appears.  
+
+During this process, a background process starts called init, which runs as PID 1.
 
 ---
 
-## **Define 3 clear goals for the next 90 days**
-- Get hands-on knowledge of all important topics for a DevOps engineer.  
-- Deploy a production-grade application on Kubernetes (AWS + CI/CD).  
-- Build and share three complete DevOps projects on GitHub.
+# What systemd Does and Why It Matters
+
+systemd is basically a system daemon that runs background processes.  
+It manages everything from hardware devices to network connections, controls when programs run, and even handles system logs.
 
 ---
 
-## **Define 3 core DevOps skills you want to build**
-Linux, Kubernetes, Terraform
+# Process States (Running, Sleeping, Zombie, etc.)
+
+| STAT Value | Meaning | Description |
+|-----------|--------|------------|
+| R | Running | The process which you just ran in terminal |
+| S | Sleeping | The process waiting for input |
+| D | Uninterruptible sleep | The process waiting for I/O (disk/network) |
+| Z | Zombie | The process is finished but still exists |
+| T | Stopped | The process which is manually paused |
 
 ---
 
-## **Allocate a weekly time budget**
-3–4 hours per day on weekdays, 4–5 hours on weekends
+# 5 Commands You Would Use Daily
 
-
-
-
-## **Happy Leaning!**
+- ls  
+- cd  
+- grep  
+- ps  
+- sudo  
