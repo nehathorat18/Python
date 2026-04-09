@@ -2,22 +2,22 @@
 > - Everything in Linux is either a file or a directory.
 > - Everything in Linux is a process.
 
-# Linux Core Components
+## Core Components of Linux (Kernel, User Space, Init/systemd)
 
-## Kernel
+### Kernel
 Kernel is the heart of Linux, meaning the core component which only interacts with hardware.
 
-## User Space
+### User Space
 User space is a protected memory area where all non-kernel user programs, applications, and most system libraries execute with limited privileges.
 
-## Init / systemd
+### Init / systemd
 When we start any Linux machine, the first process that runs is called init, and it runs as PID 1.  
 A system daemon is any process that runs in the background.  
 We can check the status of processes using systemd.
 
 ---
 
-# Process Management
+## How Processes Are Created and Managed
 
 When we start a system by pressing the power-on button, the BIOS on the motherboard is triggered and initializes the hardware.  
 
@@ -27,14 +27,14 @@ During this process, a background process starts called init, which runs as PID 
 
 ---
 
-# systemd
+## What systemd Does and Why It Matters
 
 systemd is basically a system daemon that runs background processes.  
 It manages everything from hardware devices to network connections, controls when programs run, and even handles system logs.
 
 ---
 
-# Process States
+## Explain Process States (running, sleeping, zombie, etc.)
 
 | STAT Value | Meaning | Description |
 |-----------|--------|------------|
@@ -46,7 +46,7 @@ It manages everything from hardware devices to network connections, controls whe
 
 ---
 
-# Daily Commands
+## List 5 commands you would use daily
 
 - ls  
 - cd  
