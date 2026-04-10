@@ -1,5 +1,6 @@
 
 def main():
+    
     print("Enter first number : ")
     No1 = int(input())    
     
