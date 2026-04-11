@@ -1,6 +1,6 @@
-# Linux Commands
+## Linux Commands
 
-## Process Management
+### Process Management
 
 - `ps` → check running processes  
 - `ps -a` → show processes of all users 
@@ -11,7 +11,7 @@
 
 ---
 
-## File System & User Management
+### File System & User Management
 
 - `useradd username` → create new user  
 - `userdel username` → delete user  
@@ -24,7 +24,7 @@
 
 ---
 
-## Networking Troubleshooting
+### Networking Troubleshooting
 
 - `nslookup ` → get IP address of domain  
 - `ping ` → check connectivity  
